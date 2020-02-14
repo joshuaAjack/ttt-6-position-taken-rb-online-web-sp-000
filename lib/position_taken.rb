@@ -6,6 +6,6 @@ def position_taken?(board,input_of_index)
   elsif board[index] == "X"
     return true
   else board[index] == "O"
-    return ture
+    return true
   end
 end

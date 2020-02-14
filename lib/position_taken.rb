@@ -3,7 +3,9 @@ def position_taken?(board,input_of_index)
     return false
     elsif board[index] == [" "] || [""] || nil
     return true
-  else board[index] != char1 || char2
+  elsif board[index] == "X"
     return true
+  else board[index] == "O"
+    return ture
   end
 end
